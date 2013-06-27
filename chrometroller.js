@@ -29,6 +29,8 @@ function pollConnect() {
     }
 }
 
+function gamepadAxesMoved() { }
+
 function gamepadConnected(event) {
     console.log("Gamepad connected successfully!");
     pageAnchors = getPageAnchors();
