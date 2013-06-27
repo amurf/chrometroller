@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Chrometroller",
+  "description": "This extension allows you to can control chrome using only a gamepad.",
+  "version": "1.0",
+  "web_accessible_resources": ["chrometroller.js"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["inject.js"]
+    }
+  ]
+}
